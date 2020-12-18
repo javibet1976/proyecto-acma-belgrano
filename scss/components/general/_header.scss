@@ -1,0 +1,37 @@
+// @media only screen and (max-width: 768px) {
+//   #logo {
+//     width: $widthlogo/2;
+//     height: $heightlogo/2;
+//   }
+// }
+
+/* Aplicación de un gradiente */
+header {
+  background-image: linear-gradient(to left, #118ab2, lightblue);
+  height: 100%;
+  width: 100%;
+}
+
+#main-title {
+  color: whitesmoke;
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  #main-title {
+    font-size: 1rem;
+  }
+}
+
+#main-subtitle {
+  color: $rojo;
+  font-size: 1.4rem;
+  font-style: italic;
+  text-align: left;
+}
+
+@media only screen and (max-width: 576px) {
+  #main-subtitle {
+    font-size: 1rem;
+  }
+}

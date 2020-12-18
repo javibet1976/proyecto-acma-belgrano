@@ -1,0 +1,35 @@
+/*Screen sizes*/
+$screen_small: "576px";
+$screen_medium: "768px";
+$screen_large: "992px";
+$screen_xlarge: "1200px";
+
+$mobile: "only screen and (max-width: #{$screen_small - 1})";
+$mobile_landscape: "only screen and (min-width: #{$screen_small}) and (orientation : landscape)";
+
+$tablet: "only screen and (min-width: #{$screen_medium})";
+$tablet_portrait: "only screen and (min-width: #{$screen_medium}) and (orientation : portrait)";
+$tablet_landscape: "only screen and (min-width: #{$screen_medium}) and (orientation : landscape)";
+$tablet_max: "only screen and (max-width: #{$screen_large - 1})";
+$normal: "only screen and (min-width: #{$screen_large})";
+$desktop: "only screen and (min-width: #{$screen_xlarge})";
+
+/* Colores */
+$aguamarina: aquamarine;
+$azulclaro: lightblue;
+$azulfuerte: #118ab2;
+$gris: gray;
+$rojo: #db3a34;
+$verdeintenso: #1a535c;
+$verdeclaro: #6a994e;
+
+/* Fonts */
+$main-font: Verdana, Geneva, Tahoma, sans-serif;
+
+/* Font sizes */
+$font-size-base: 1rem !default;
+$font-size-h1: 1.875rem;
+$font-size-h2: 1.625rem;
+$font-size-h3: 1.3rem;
+$font-size-h4: 1.25rem;
+$font-size-parrafo: 1rem;

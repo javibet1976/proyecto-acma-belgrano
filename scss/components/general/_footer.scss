@@ -1,0 +1,33 @@
+footer {
+  background-color: #1a535c;
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  margin-top: 2rem;
+  padding: 10px 10px 1px 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    font-size: 0.75rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #nosotros {
+    display: none;
+  }
+}
+
+span {
+  font-style: italic;
+}
+
+.copyright {
+  border-top: 1px solid lightblue;
+  font-size: 0.75rem;
+  padding-top: 10px;
+  text-align: right;
+}

@@ -1,0 +1,40 @@
+.navbar {
+  background-color: $verdeintenso;
+
+  #navbarNavAltMarkup {
+    .navbar-nav {
+      .nav-item {
+        &.nav-link {
+          color: $aguamarina;
+        }
+        &.active {
+          color: $gris;
+        }
+      }
+    }
+  }
+}
+
+.nav-item.nav-link:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-item {
+    font-size: 0.75rem;
+  }
+}
+
+// MENÚ DESPLEGABLE
+.dropdown-menu {
+  background-color: $verdeintenso;
+  .dropdown-item {
+    color: $aguamarina;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dropdown-item {
+    font-size: 0.75rem;
+  }
+}

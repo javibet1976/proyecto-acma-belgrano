@@ -1,0 +1,47 @@
+/* esta es la lista de canciones */
+.listacancionero {
+  $main-font: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 75px;
+}
+
+@media only screen and (max-width: 768px) {
+  .listacancionero {
+    margin: 0 25px;
+  }
+}
+
+.btn {
+  padding-top: 2px;
+}
+
+.enlace {
+  color: white;
+  font-size: 1rem;
+  $main-font: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.enlace:hover {
+  color: aquamarine;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .enlace {
+    font-size: 0.75rem;
+  }
+}
+
+/* Hipervínculo a youtube */
+.hymn {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media only screen and (max-width: 576px) {
+  .hymn {
+    width: 75%;
+    height: auto;
+  }
+}
