@@ -12,6 +12,10 @@
 
 .btn {
   padding-top: 2px;
+  &.botondecanciones {
+    width: 300px;
+    text-align: left;
+  }
 }
 
 .enlace {
@@ -33,14 +37,15 @@
 }
 
 /* Hipervínculo a youtube */
-.hymn {
+.videoyoutube,
+.mapagoogle {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
 @media only screen and (max-width: 576px) {
-  .hymn {
+  .videoyoutube {
     width: 75%;
     height: auto;
   }

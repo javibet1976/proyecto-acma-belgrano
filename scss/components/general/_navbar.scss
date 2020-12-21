@@ -26,15 +26,22 @@
 }
 
 // MENÚ DESPLEGABLE
-.dropdown-menu {
-  background-color: $verdeintenso;
-  .dropdown-item {
-    color: $aguamarina;
-  }
-}
+// .dropdown-menu {
+//   background-color: $verdeintenso;
+//   .dropdown-item {
+//     color: $aguamarina;
+//   }
+// }
 
 @media only screen and (max-width: 768px) {
   .dropdown-item {
     font-size: 0.75rem;
   }
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: $aguamarina;
+  text-decoration: none;
+  background-color: $verdeintenso;
 }
