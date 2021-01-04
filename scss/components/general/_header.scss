@@ -1,19 +1,12 @@
-// @media only screen and (max-width: 768px) {
-//   #logo {
-//     width: $widthlogo/2;
-//     height: $heightlogo/2;
-//   }
-// }
-
 /* Aplicación de un gradiente */
 header {
-  background-image: linear-gradient(to left, #118ab2, lightblue);
+  // background-image: linear-gradient(to left, $azulmedio, $azulclaro);
   height: 100%;
   width: 100%;
 }
 
 #main-title {
-  color: whitesmoke;
+  color: black;
   font-size: 2rem;
 }
 

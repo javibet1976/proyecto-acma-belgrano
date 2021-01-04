@@ -1,14 +1,14 @@
 .navbar {
-  background-color: $verdeintenso;
+  background-color: $verdefuerte;
 
   #navbarNavAltMarkup {
     .navbar-nav {
       .nav-item {
         &.nav-link {
-          color: $aguamarina;
+          color: $blancohumo;
         }
         &.active {
-          color: $gris;
+          color: $rosa;
         }
       }
     }
@@ -25,14 +25,6 @@
   }
 }
 
-// MENÚ DESPLEGABLE
-// .dropdown-menu {
-//   background-color: $verdeintenso;
-//   .dropdown-item {
-//     color: $aguamarina;
-//   }
-// }
-
 @media only screen and (max-width: 768px) {
   .dropdown-item {
     font-size: 0.75rem;
@@ -41,7 +33,7 @@
 
 .dropdown-item:focus,
 .dropdown-item:hover {
-  color: $aguamarina;
+  color: $blancohumo;
   text-decoration: none;
-  background-color: $verdeintenso;
+  background-color: $verdefuerte;
 }

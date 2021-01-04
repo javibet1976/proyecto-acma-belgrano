@@ -1,7 +1,7 @@
 /* estos son todos los h3, el título de cada página */
 h3 {
-  background-color: $verdeclaro;
-  color: white;
+  background-color: $rosa;
+  color: $verdefuerte;
   font-family: $main-font;
   font-size: $font-size-h3;
   font-weight: bold;
@@ -12,7 +12,7 @@ h3 {
 }
 
 h4 {
-  color: $verdeintenso;
+  color: $verdefuerte;
   font-family: $main-font;
   font-size: $font-size-h4;
   font-weight: bold;
@@ -20,33 +20,6 @@ h4 {
   padding: 15px 5px 5px 5px;
   text-align: center;
 }
-
-// @mixin caracteristicas(color, font-family, font-size, font-weight, text-align) {
-//   color: $verdeintenso;
-//   font-family: $main-font;
-//   font-size: $font-size-h4;
-//   font-weight: bold;
-//   margin: 5px 5px;
-//   padding: 15px 5px 5px 5px;
-//   text-align: center;
-// }
-// h4 {
-//   @include caracteristicas(
-//     $verdeintenso,
-//     $main-font,
-//     $font-size-h4,
-//     bold,
-//     center
-//   );
-// }
-
-// @mixin sizes($width, $height) {
-//   height: $height;
-//   width: $width;
-// }
-// .box {
-//   @include sizes(500px, 50px);
-// }
 
 article {
   padding: 10px 0;

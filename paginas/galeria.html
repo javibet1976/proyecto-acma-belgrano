@@ -13,6 +13,10 @@
     <link href="../css/main.css" rel="stylesheet" type="text/css" />
     <script src="../js/jquery-3.4.1.slim.min.js"></script>
     <link href="../imagenes/ACMALogo.png" rel="icon" type="image/png" />
+
+    <!-- Links externos para la galería -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+
 </head>
 
 <body>
@@ -39,7 +43,14 @@
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="proxeventos.html">Próximos eventos</a>
-                    <a class="nav-item nav-link" href="celebracion.html">Celebración</a>
+                    <div class="dropdown">
+                        <a class="nav-item nav-link dropdown-toggle" href="" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">Celebración</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="cancionero.html">Cancionero</a>
+                            <a class="dropdown-item" href="ideasyrecursos.html">Ideas y Recursos</a>
+                        </div>
+                    </div>
                     <div class="dropdown">
                         <a class="nav-item nav-link dropdown-toggle" href="" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">Documentos</a>
@@ -65,6 +76,38 @@
     </header>
 
     <main>
+        <h3>Galería de Fotos</h3>
+        <h4 id="listadecanciones">Fotos de nuestra historia</h4>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="row mb-4">
+                    <a href="../imagenes/lacarpa1.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                        class="col-sm-4">
+                        <img src="../imagenes/lacarpa1.jpg" class="img-fluid">
+                    </a>
+                    <a href="../imagenes/lacarpa3.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                        class="col-sm-4">
+                        <img src="../imagenes/lacarpa3.jpg" class="img-fluid">
+                    </a>
+                    <a href="../imagenes/lacarpa4.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                        class="col-sm-4">
+                        <img src="../imagenes/lacarpa4.jpg" class="img-fluid">
+                    </a>
+                </div>
+                <div class="row mb-4">
+                    <a href="../imagenes/lacarpa5.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                        class="col-sm-6">
+                        <img src="../imagenes/lacarpa5.jpg" class="img-fluid">
+                    </a>
+                    <a href="../imagenes/chicos2005.jpg" data-toggle="lightbox" data-gallery="example-gallery"
+                        class="col-sm-6">
+                        <img src="../imagenes/chicos2005.jpg" class="img-fluid">
+                    </a>
+
+                    </a>
+                </div>
+            </div>
+        </div>
 
     </main>
 
@@ -98,6 +141,15 @@
     <script type="text/script" src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
     <script src="../js/popper.min.js"></script>
+
+    <!-- Links externos para la galería -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
 </body>
 
 </html>

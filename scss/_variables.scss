@@ -15,13 +15,21 @@ $normal: "only screen and (min-width: #{$screen_large})";
 $desktop: "only screen and (min-width: #{$screen_xlarge})";
 
 /* Colores */
-$aguamarina: aquamarine;
-$azulclaro: lightblue;
-$azulfuerte: #118ab2;
-$gris: gray;
-$rojo: #db3a34;
-$verdeintenso: #1a535c;
-$verdeclaro: #6a994e;
+// $azulclaro: #a8dadc;
+// $azulintenso: #1d3557;
+// $azulmedio: #457b9d;
+// $blancohumo: #f1faee;
+// $rojo: #e63946;
+// $rosa: #f2baba;
+
+$azulpastel: #c1d2d7;
+$blancohumo: #e7edee;
+$naranja: #eb6d1e;
+$rosa: #fcc5d1;
+$rojo: #e63946;
+$verdefuerte: #0d4351;
+$verdemedio: #255c6b;
+$verdeclaro: #4b7884;
 
 /* Fonts */
 $main-font: Verdana, Geneva, Tahoma, sans-serif;

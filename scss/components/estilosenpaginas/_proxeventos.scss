@@ -1,34 +1,34 @@
-// form {
-//   padding: 0 5px 5px 5px;
-//   margin: 5px 50px 5px 50px;
-// }
+form {
+  padding: 0 5px 5px 5px;
+  margin: 5px 50px 5px 50px;
+}
 
-// th {
-//   width: 100px;
-// }
+th {
+  width: 100px;
+}
 
-// td {
-//   text-align: center;
-// }
+td {
+  text-align: center;
+}
 
-// .fecha {
-//   text-align: left;
-// }
+.fecha {
+  text-align: left;
+}
 
-// .hora {
-//   list-style-type: none;
-// }
+.hora {
+  list-style-type: none;
+}
 
 /* Aplicación de GRID */
 // #formulario {
 //   display: grid;
-//   grid-template-columns: auto auto auto;
+//   grid-template-columns: 400px 400px auto;
 //   grid-column-gap: 50px;
 //   grid-row-gap: 20px;
 //   background-color: #073b4c;
 //   padding: 10px;
 //   div {
-//     background-color: lightblue;
+//     background-color: $azulclaro;
 //     border: 1px solid black;
 //     padding: 20px;
 //     font-size: 16px;
@@ -41,3 +41,26 @@
 //     }
 //   }
 // }
+
+// @media only screen and (max-width: 576px) {
+//   .datos {
+//     grid-template-columns: 100%;
+//     padding: 10px;
+//   }
+// }
+
+// FORMULARIO 2
+#formulario2 {
+  display: grid;
+  background-color: $verdefuerte;
+  grid-column-gap: 50px;
+  grid-row-gap: 20px;
+  padding: 5px;
+  div {
+    background-color: $azulpastel;
+    // border: 1px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+  }
+}
