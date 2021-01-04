@@ -1,6 +1,7 @@
 /* esta es la lista de canciones */
 .listacancionero {
-  $main-font: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: $main-font;
+  line-height: 2.2;
   margin: 0 75px;
 }
 
@@ -21,12 +22,12 @@
 .enlace {
   color: white;
   font-size: 1rem;
-  $main-font: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: $main-font;
   text-decoration: none;
 }
 
 .enlace:hover {
-  color: aquamarine;
+  color: $rosa;
   text-decoration: none;
 }
 

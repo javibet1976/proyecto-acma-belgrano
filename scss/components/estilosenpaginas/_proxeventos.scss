@@ -64,3 +64,21 @@ td {
     padding: 20px;
   }
 }
+
+label {
+  font-family: $main-font;
+  font-size: $font-size-parrafo;
+}
+
+@media only screen and (max-width: 768px) {
+  label {
+    font-size: 0.87rem;
+  }
+}
+
+h5 {
+  color: $verdefuerte;
+  font-family: $main-font;
+  font-size: $font-size-h4;
+  // font-weight: bold;
+}
