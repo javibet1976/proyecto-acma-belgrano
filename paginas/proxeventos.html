@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Alianza Cristiana y Misionera Argentina Belgrano">
-  <meta name="keywords" content="ACMA, Alianza Cristiana y Misionera Belgrano, ACMA Belgrano, Cancionero">
+  <meta name="keywords" content="ACMA, Alianza Cristiana y Misionera Belgrano, ACMA Belgrano, Eventos">
   <meta name="description"
     content="Los eventos de la comunidad de Belgrano son abiertos a todo el público. Su acceso es libre y gratuito.">
   <title>ACMA Belgrano - Próximos eventos</title>
@@ -24,7 +23,7 @@
               title="Logo de la Alianza Cristiana y Misionera" width="90" height="90" /></a>
         </div>
         <div class="col-lg-11 col-md-11 col-sm-11">
-          <h1 id="main-title"> Alianza Cristiana y Misionera Argentina - Belgrano</h1></br>
+          <h1 id="main-title"> Alianza Cristiana y Misionera Argentina - Belgrano</h1>
           <h2 id="main-subtitle">Viviendo el llamado juntos</h2>
         </div>
       </div>
@@ -85,7 +84,7 @@
       </article>
     </section>
 
-    <form id="formulario2">
+    <form id="formulario">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-4">
@@ -111,10 +110,10 @@
             <h5><strong>Estado civil:</strong></h5>
             <input type="radio" name="status" id="married" value="casado">
             <label for="married">Casado/a</label></br>
-            <input type="radio" name="status" id="single" value="soltero">
-            <label for="single">Otro/a</label></br>
             <input type="radio" name="status" id="separated" value="separado">
             <label for="separated">Separado/a</label></br>
+            <input type="radio" name="status" id="single" value="otro">
+            <label for="single">Otro/a</label></br>
           </div>
         </div>
       </div>
@@ -122,28 +121,28 @@
         <div class="row">
           <div class="col-sm-4">
             <h5><strong>Departamento(s) en que participa:</strong></h5>
-            <input type="checkbox" name="checkbox1" id="checkbox1" value="liturgia">
-            <label for=checkbox1>Liturgia</label></br>
             <input type="checkbox" name="checkbox2" id="checkbox2" value="accion-social">
             <label for=checkbox2>Acción social</label></br>
-            <input type="checkbox" name="checkbox3" id="checkbox3" value="junta-administrativa">
-            <label for=checkbox3>Junta administrativa</label></br>
-            <input type="checkbox" name="checkbox4" id="checkbox4" value="tesoreria">
-            <label for=checkbox4>Tesorería</label></br>
             <input type="checkbox" name="checkbox5" id="checkbox5" value="eventos">
             <label for=checkbox1>Eventos</label></br>
+            <input type="checkbox" name="checkbox3" id="checkbox3" value="junta-administrativa">
+            <label for=checkbox3>Junta administrativa</label></br>
+            <input type="checkbox" name="checkbox1" id="checkbox1" value="liturgia">
+            <label for=checkbox1>Liturgia</label></br>
             <input type="checkbox" name="checkbox6" id="checkbox6" value="maestranza">
             <label for=checkbox1>Maestranza</label></br>
+            <input type="checkbox" name="checkbox4" id="checkbox4" value="tesoreria">
+            <label for=checkbox4>Tesorería</label></br>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 cajadesugerencias">
             <h5><strong>Sugerencias:</strong></h5>
-            <textarea name="my_textarea_name" id="my-textarea-input" rows="10" cols="30"
+            <textarea name="my_textarea_name" id="my-textarea-input" rows="8" cols="30"
               placeholder="Escriba aquí"></textarea></br>
           </div>
           <div class="col-sm-4">
             <h5><strong>Días que desea participar:</strong></h5>
             <label for="my-select"></label>
-            <select name="my-select-name" id="my-select">
+            <select class="seleccion" name="my-select-name" id="my-select">
               <option selected="selected">Seleccione</option>
               <option value="1">1 día</option>
               <option value="2">2 días</option>
@@ -152,7 +151,7 @@
             </br>
             </br>
             </br>
-            <input type="submit" value="Enviar" />
+            <input class="botonenviar" type="submit" value="Enviar" />
           </div>
         </div>
       </div>
