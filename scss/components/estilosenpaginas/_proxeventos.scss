@@ -12,6 +12,14 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  #formulario {
+    margin: 5px;
+    padding: 5px;
+    width: 350px;
+  }
+}
+
 // Los títulos dentro del formulario
 label {
   font-family: $main-font;

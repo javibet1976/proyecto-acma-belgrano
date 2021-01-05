@@ -20,10 +20,12 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .botondecanciones {
-    width: 200px;
+  .btn {
+    padding-top: 2px;
+    &.botondecanciones {
+      width: 200px;
+    }
   }
-}
 
 .enlace {
   color: white;
