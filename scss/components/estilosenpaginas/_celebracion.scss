@@ -14,18 +14,16 @@
 .btn {
   padding-top: 2px;
   &.botondecanciones {
-    width: 400px;
+    width: 350px;
     text-align: left;
   }
 }
 
-@media only screen and (max-width: 768px) {
-  .btn {
-    padding-top: 2px;
-    &.botondecanciones {
-      width: 200px;
-    }
-  }
+// @media only screen and (max-width: 768px) {
+//   .btn &.botondecanciones {
+//     width: 200px;
+//   }
+// }
 
 .enlace {
   color: white;
@@ -61,7 +59,7 @@
   display: block;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   .videoyoutube {
     width: 75%;
     height: auto;
