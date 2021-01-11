@@ -46,10 +46,12 @@ h5 {
   margin-bottom: 24px;
 }
 
-.botonenviar {
+.botonenviar1 {
+  text-align: center;
+}
+
+.botonenviar2 {
   font-family: $main-font;
   font-size: $font-size-parrafo;
-  // font-weight: bold;
-  margin: auto;
   width: 60%;
 }

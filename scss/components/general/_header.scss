@@ -3,6 +3,27 @@ header {
   width: 100%;
 }
 
+.flex-container {
+  display: flex;
+}
+
+.container-logo {
+  padding: 0 12px;
+}
+
+@media only screen and (max-width: 576px) {
+  .container-logo {
+    padding: 12px 12px 0 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #logo {
+    width: 65px;
+    height: auto;
+  }
+}
+
 #main-title {
   color: black;
   font-size: 2rem;
@@ -11,7 +32,7 @@ header {
 
 @media only screen and (max-width: 768px) {
   #main-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -24,6 +45,6 @@ header {
 
 @media only screen and (max-width: 576px) {
   #main-subtitle {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }

@@ -4,10 +4,20 @@
 }
 
 #biografia {
-  p {
-    margin-right: 0;
-    padding-right: 0;
-  }
+  padding-right: 0px;
+}
+
+.primeraparte {
+  margin-right: 0;
+}
+
+.segundaparte {
+  padding-right: 13px;
+}
+
+#fotosimpson {
+  width: 270px;
+  height: auto;
 }
 
 @media only screen and (max-width: 576px) {
@@ -18,7 +28,21 @@
 }
 
 @media only screen and (max-width: 576px) {
-  #segundaparte {
+  .primeraparte {
+    margin-left: 0px;
+    margin-right: 15px;
+    padding: 0 20px 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .ultimo {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .segundaparte {
     padding: 0 20px 10px 20px;
   }
 }

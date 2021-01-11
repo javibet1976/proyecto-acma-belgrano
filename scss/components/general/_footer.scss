@@ -6,21 +6,35 @@ footer {
   line-height: 23px;
   margin-top: 2rem;
   padding: 10px 10px 1px 10px;
-  text-align: center;
-}
-
-.font-awesome-footer {
-  margin-bottom: 15px;
-}
-
-.titulo-footer {
-  color: $rojo;
 }
 
 @media only screen and (max-width: 768px) {
   footer {
     font-size: 0.75rem;
   }
+}
+
+.font-awesome-footer1 {
+  text-align: center;
+}
+
+.font-awesome-footer2 {
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .font-awesome-footer1 {
+    font-size: 75%;
+  }
+}
+
+.titulo-footer {
+  color: $rojo;
+  text-align: center;
+}
+
+.parrafo-footer {
+  text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -31,9 +45,13 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .seguinos {
-    border-top: 1px solid $azulpastel;
+    border-top: solid $azulpastel;
     padding-top: 10px;
   }
+}
+
+.logo-facebook {
+  padding-right: 10px;
 }
 
 span {

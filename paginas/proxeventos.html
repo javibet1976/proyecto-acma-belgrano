@@ -17,16 +17,14 @@
 
 <body>
   <header>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-1 col-md-1 col-sm-1 justify-content-left">
-          <a href="../index.html"><img id="logo" src="../imagenes/ACMALogo.png" alt="Logo de la C&MA"
-              title="Logo de la Alianza Cristiana y Misionera" width="90" height="90" /></a>
-        </div>
-        <div class="col-lg-11 col-md-11 col-sm-11">
-          <h1 id="main-title"> Alianza Cristiana y Misionera Argentina - Belgrano</h1>
-          <h2 id="main-subtitle">Viviendo el llamado juntos</h2>
-        </div>
+    <div class="flex-container">
+      <div class="container-logo">
+        <a href="../index.html"><img id="logo" src="../imagenes/ACMALogo.png" alt="Logo de la C&MA"
+            title="Logo de la Alianza Cristiana y Misionera" width="90" height="90" /></a>
+      </div>
+      <div>
+        <h1 id="main-title"> Alianza Cristiana y Misionera Argentina - Belgrano</h1>
+        <h2 id="main-subtitle">Viviendo el llamado juntos</h2>
       </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -89,7 +87,6 @@
       <div class="container-fluid fondo">
         <div class="row">
           <div class="col-sm-4">
-            <!-- <div class="col-lg-4 col-md-6 col-sm-12"> -->
             <h5><strong>Datos generales:</strong></h5>
             <label for="my-text-input">Nombre:</label>
             <input type="text" name="my_text_input_name" id="my-text-input" value="" placeholder="Juansito Pérez"></br>
@@ -100,7 +97,6 @@
             </br>
           </div>
           <div class="col-sm-4">
-            <!-- <div class="col-lg-4 col-md-6 col-sm-12"> -->
             <h5><strong>Sexo:</strong></h5>
             <input type="radio" name="gender" id="female" value="mujer">
             <label for="female">Mujer</label></br>
@@ -110,21 +106,19 @@
             <label for="other">Otro</label></br>
           </div>
           <div class="col-sm-4">
-            <!-- <div class="col-lg-4 col-md-6 col-sm-12"> -->
             <h5><strong>Estado civil:</strong></h5>
             <input type="radio" name="status" id="married" value="casado">
             <label for="married">Casado/a</label></br>
             <input type="radio" name="status" id="separated" value="separado">
             <label for="separated">Separado/a</label></br>
             <input type="radio" name="status" id="single" value="otro">
-            <label for="single">Otro/a</label></br>
+            <label for="single">Otro</label></br>
           </div>
         </div>
       </div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-4">
-            <!-- <div class="col-lg-4 col-md-6 col-sm-12"> -->
             <h5><strong>Departamento(s) en que participa:</strong></h5>
             <input type="checkbox" name="checkbox2" id="checkbox2" value="accion-social">
             <label for=checkbox2>Acción social</label></br>
@@ -140,13 +134,11 @@
             <label for=checkbox4>Tesorería</label></br>
           </div>
           <div class="col-sm-4 cajadesugerencias">
-            <!-- <div class="col-lg-4 col-md-6 col-sm-12 cajadesugerencias"> -->
             <h5><strong>Sugerencias:</strong></h5>
-            <textarea name="my_textarea_name" id="my-textarea-input" rows="8" cols="26"
+            <textarea name="my_textarea_name" id="my-textarea-input" rows="8" cols="25"
               placeholder="Escriba aquí"></textarea></br>
           </div>
           <div class="col-sm-4">
-            <!-- <div class="col-lg-4 col-md-6 col-sm-12"> -->
             <h5><strong>Días que desea participar:</strong></h5>
             <label for="my-select"></label>
             <select class="seleccion" name="my-select-name" id="my-select">
@@ -158,9 +150,10 @@
             </br>
             </br>
             </br>
-            <button type="button" class="botonenviar btn btn-info"><a href="../paginas/agradecimiento.html"
-                class="enlace">Enviar</a></button>
-            <!-- <input class="botonenviar" type="submit" value="Enviar" /> -->
+            <div class="botonenviar1">
+              <button type="button" class="botonenviar2 btn btn-info"><a href="../paginas/agradecimiento.html"
+                  class="enlace">Enviar</a></button>
+            </div>
           </div>
         </div>
       </div>
@@ -171,25 +164,39 @@
     <div class="container">
       <div class="row">
         <div id="nosotros" class="col-lg-3 col-md-6 col-sm-12">
-          <p><strong>NOSOTROS</strong></p>
-          <p>Somos una comunidad que busca apoyar a estudiantes de escasos recursos para permitir su inserción social.
+          <div class="font-awesome-footer1">
+            <i class="fas fa-3x fa-people-carry font-awesome-footer2"></i>
+          </div>
+          <p class="titulo-footer"><strong>NOSOTROS</strong></p>
+          <p class="parrafo-footer">Somos una comunidad que busca apoyar a estudiantes de escasos recursos para permitir
+            su inserción social.
           </p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <p><strong>CONTACTANOS</strong></p>
-          <p>belgrano@alianza@org.ar</p>
-          <p>Blanco Encalada 3562, Belgrano</p>
-          <p>(CP 1428 - CABA), Buenos Aires</p>
-          <p><span>Reuniones: </span>Domingos y Miércoles a las 19.00</p>
+          <div class="font-awesome-footer1">
+            <i class="fas fa-3x fa-at font-awesome-footer2"></i>
+          </div>
+          <p class="titulo-footer"><strong>CONTACTANOS</strong></p>
+          <p class="parrafo-footer">belgrano@alianza.org.ar</p>
+          <p class="parrafo-footer">Blanco Encalada 3562, Belgrano</p>
+          <p class="parrafo-footer">(CP 1428 - CABA), Buenos Aires</p>
+          <p class="parrafo-footer"><span>Reuniones: </span>Domingos y Miércoles a las 19.00</p>
         </div>
-        <div class="col-lg-3 col-md-6 col-sm-12">
-          <p><strong>SEGUINOS</strong></p>
-          <p>Aquí va el loguito de facebook</p>
+        <div class="col-lg-3 col-md-12 col-sm-12 seguinos">
+          <div class="font-awesome-footer1">
+            <i class="far fa-3x fa-heart font-awesome-footer2"></i>
+          </div>
+          <p class="titulo-footer"><strong>SEGUINOS</strong></p>
+          <p class="parrafo-footer">También estamos en la redes sociales</p>
+          <div class="font-awesome-footer1">
+            <i class="fab fa-2x fa-facebook-f logo-facebook"></i>
+            <i class="fab fa-2x fa-instagram"></i>
+          </div>
         </div>
       </div>
     </div>
     <div>
-      <p class="copyright">&copy; 2020 <em>The Christian and Missionary Alliance</em></p>
+      <p class="copyright">&copy; 2021 <em>The Christian and Missionary Alliance</em></p>
     </div>
   </footer>
 
