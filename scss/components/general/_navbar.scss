@@ -1,11 +1,9 @@
 .navbar {
   background-color: $verdefuerte;
-  height: 30px;
 
   #navbarNavAltMarkup {
     .navbar-nav {
       .nav-item {
-        padding: 0 20px;
         &.nav-link {
           color: $blancohumo;
         }
