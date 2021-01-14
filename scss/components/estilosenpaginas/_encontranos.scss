@@ -4,3 +4,35 @@
     height: auto;
   }
 }
+
+.transporte {
+  margin-bottom: 30px;
+}
+
+.container_del_fontawesome {
+  margin-left: 50px;
+  align-self: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .container_del_fontawesome {
+    margin-left: 25px;
+    font-size: 50%;
+  }
+}
+
+.container_del_transporte {
+  margin-left: 10px;
+}
+
+.lineas {
+  list-style: none;
+  margin-left: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .lineas {
+    margin-left: 10px;
+    font-size: 0.87rem;
+  }
+}

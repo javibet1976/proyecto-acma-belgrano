@@ -30,10 +30,12 @@ footer {
 
 .titulo-footer {
   color: $rojo;
+  font-weight: bold;
   text-align: center;
 }
 
 .parrafo-footer {
+  list-style: none;
   text-align: center;
 }
 
@@ -54,7 +56,7 @@ footer {
   padding-right: 10px;
 }
 
-span {
+.span_del_footer {
   font-style: italic;
 }
 

@@ -4,6 +4,8 @@
   #navbarNavAltMarkup {
     .navbar-nav {
       .nav-item {
+        padding-left: 15px;
+        padding-right: 15px;
         &.nav-link {
           color: $blancohumo;
         }
