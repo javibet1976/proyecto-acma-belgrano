@@ -8,7 +8,7 @@
     background-color: $azulpastel;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    padding: 20px;
+    padding: 15px;
   }
 }
 
@@ -19,6 +19,12 @@
     &.fondo {
       width: 250;
     }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .segunda_parte-formulario {
+    margin-bottom: 0;
   }
 }
 
@@ -46,6 +52,12 @@ h5 {
   margin-bottom: 24px;
 }
 
+@media only screen and (max-width: 768px) {
+  .seleccion {
+    font-size: 0.7rem;
+  }
+}
+
 .botonenviar1 {
   text-align: center;
 }
@@ -54,4 +66,11 @@ h5 {
   font-family: $main-font;
   font-size: $font-size-parrafo;
   width: 60%;
+}
+
+//Este es el único footer que tiene esta especificación. La clase está en la etiqueta "footer"
+@media only screen and (max-width: 768px) {
+  .footer_de_eventos {
+    margin-top: 0.5rem;
+  }
 }

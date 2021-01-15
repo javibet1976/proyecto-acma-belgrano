@@ -59,7 +59,23 @@ p {
   height: 580px;
 }
 
+@media only screen and (max-width: 768px) {
+  .en_construccion {
+    height: 220px;
+  }
+}
+
 .icono_en_construccion {
   padding-top: 10px;
   text-align: center;
+}
+
+//Página agradecimiento
+.texto_agradecimiento {
+  text-align: center;
+  margin: 0;
+}
+
+.icono_agradecimiento {
+  margin: 30px 0;
 }

@@ -30,8 +30,15 @@ footer {
 
 .titulo-footer {
   color: $rojo;
+  font-size: $font-size-h5;
   font-weight: bold;
   text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .titulo-footer {
+    font-size: 0.8rem;
+  }
 }
 
 .parrafo-footer {
@@ -58,6 +65,12 @@ footer {
 
 .span_del_footer {
   font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+  .reuniones {
+    padding-bottom: 10px;
+  }
 }
 
 .copyright {
