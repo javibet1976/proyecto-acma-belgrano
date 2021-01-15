@@ -29,7 +29,7 @@ footer {
 }
 
 .titulo-footer {
-  color: $rojo;
+  color: $naranja;
   font-size: $font-size-h5;
   font-weight: bold;
   text-align: center;
@@ -37,13 +37,15 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .titulo-footer {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
 .parrafo-footer {
+  font-size: 1rem;
   list-style: none;
   text-align: center;
+  margin: 5px 35px;
 }
 
 @media only screen and (max-width: 768px) {

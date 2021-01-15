@@ -2,7 +2,7 @@
 .listacancionero {
   font-style: $main-font;
   line-height: 2.2;
-  margin: 0 75px;
+  margin: 0 0 40px 117px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -37,11 +37,23 @@
 }
 
 // Estrofas de las canciones
-.estrofa {
-  margin: 15px 24px;
-  padding-left: 15px;
-  &.estribillo {
-    margin-left: 64px;
+p .estrofa {
+  margin: 15px 50px;
+}
+
+.estribillo {
+  margin-left: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+  .estrofa {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .estribillo {
+    margin-left: 35px;
   }
 }
 
