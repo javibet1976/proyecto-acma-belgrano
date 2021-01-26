@@ -17,5 +17,7 @@
     "postcss-cli": "^8.3.0"
   },
   "main": "index.js",
-  "dependencies": {}
+  "dependencies": {
+    "@staaky/fresco": "^2.3.1"
+  }
 }

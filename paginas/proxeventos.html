@@ -20,7 +20,7 @@
     <div class="flex-container">
       <div class="container-logo">
         <a href="../index.html"><img id="logo" src="../imagenes/ACMALogo.png" alt="Logo de la C&MA"
-            title="Logo de la Alianza Cristiana y Misionera" width="90" height="90" /></a>
+            title="Logo de la Alianza Cristiana y Misionera" /></a>
       </div>
       <div>
         <h1 id="main-title"> Alianza Cristiana y Misionera Argentina - Belgrano</h1>
@@ -84,16 +84,16 @@
     </section>
 
     <form id="formulario">
-      <div class="container-fluid fondo">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-sm-4">
             <h5><strong>Datos generales:</strong></h5>
             <label for="my-text-input">Nombre:</label>
-            <input type="text" name="my_text_input_name" id="my-text-input" value="" placeholder="Juansito Pérez"></br>
+            <input type="text" name="my_text_input_name" id="my-text-input" value="" placeholder="Diego Cerezo"></br>
             </br>
             <label for="my-email-input">E-mail: </label>
             <input type="email" name="my_email_input_name" id="my-email-input" value=""
-              placeholder="nombre@correo.com"></br>
+              placeholder="diego@cerezo.com"></br>
             </br>
           </div>
           <div class="col-sm-4">
@@ -135,8 +135,7 @@
           </div>
           <div class="col-sm-4 cajadesugerencias">
             <h5><strong>Sugerencias:</strong></h5>
-            <textarea name="my_textarea_name" id="my-textarea-input" rows="8" cols="27"
-              placeholder="Escriba aquí"></textarea></br>
+            <textarea name="my_textarea_name" id="my-textarea-input" placeholder="Escriba aquí"></textarea></br>
           </div>
           <div class="col-sm-4">
             <h5><strong>Días que desea participar:</strong></h5>
@@ -147,13 +146,17 @@
               <option value="2">2 días</option>
               <option value="3">3 días</option>
             </select>
-            </br>
-            </br>
-            </br>
+
+            <!-- Botón provisional -->
             <div class="botonenviar1">
               <button type="button" class="botonenviar2 btn btn-info"><a href="../paginas/agradecimiento.html"
                   class="enlace">Enviar</a></button>
             </div>
+
+            <!-- Botón definitivo para ser operado por JS -->
+            <!-- <div>
+              <input type="submit" value="Enviar formulario" />
+            </div> -->
           </div>
         </div>
       </div>

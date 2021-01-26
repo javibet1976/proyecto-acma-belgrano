@@ -17,6 +17,11 @@ header {
   }
 }
 
+#logo {
+  width: 90px;
+  height: 90px;
+}
+
 @media only screen and (max-width: 768px) {
   #logo {
     width: 65px;
@@ -43,7 +48,7 @@ header {
   text-align: left;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   #main-subtitle {
     font-size: 1rem;
   }

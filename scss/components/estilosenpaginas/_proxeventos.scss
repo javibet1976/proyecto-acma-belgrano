@@ -49,7 +49,7 @@ h5 {
 .seleccion {
   font-family: $main-font;
   font-size: $font-size-parrafo;
-  margin-bottom: 24px;
+  margin-bottom: 74px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -73,4 +73,9 @@ h5 {
   .footer_de_eventos {
     margin-top: 0.5rem;
   }
+}
+
+#my-textarea-input {
+  width: 17.5rem;
+  height: 11.25rem;
 }

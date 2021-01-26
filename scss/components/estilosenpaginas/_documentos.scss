@@ -10,62 +10,19 @@
 }
 
 //La página de Simpson
-.simpson {
-  margin-left: 100px;
-}
-
-@media only screen and (max-width: 576px) {
-  .simpson {
-    margin-left: 0;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .fundador {
-    display: flex;
-    justify-content: center;
-  }
+.fotofundador {
+  text-align: center;
+  margin: 20px;
 }
 
 .fotosimpson {
-  margin-top: 15px;
-  width: 270px;
+  width: 250px;
   height: auto;
 }
 
-.primeraparte {
-  margin-left: 10px;
-  margin-right: 70px;
-}
-
 @media only screen and (max-width: 576px) {
-  .primeraparte {
-    margin-left: 5px;
-    margin-right: 10px;
-    padding-bottom: 10px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .primerparrafo {
-    padding-top: 10px;
-  }
-}
-
-.segundaparte {
-  padding-right: 13px;
-}
-
-@media only screen and (max-width: 576px) {
-  .segundaparte {
-    margin-left: 20px;
-    margin-right: 15px;
-    padding-bottom: 10px;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .ultimo {
-    margin-bottom: 0px;
+  .fotosimpsonnuevo {
+    width: 180px;
+    height: auto;
   }
 }
